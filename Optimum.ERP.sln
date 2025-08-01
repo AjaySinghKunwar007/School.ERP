@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Optimum.ERP", "Optimum.ERP\Optimum.ERP.csproj", "{D67940D3-CA0B-4944-8C23-5496F3AA8EC5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Optimum.ERP.Models", "Optimum.ERP.Models\Optimum.ERP.Models.csproj", "{103EBC26-945D-4D4A-853F-B81C76C18DFF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Optimum.ERP.Database", "Optimum.ERP.Database\Optimum.ERP.Database.csproj", "{491F9D23-1B79-4A0C-9157-C75D4F5EF8D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Optimum.ERP.Services", "Optimum.ERP.Services\Optimum.ERP.Services.csproj", "{A798228E-786D-4775-A09C-D5A79276E3C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Optimum.ERP.OneAPI", "Optimum.ERP.OneAPI\Optimum.ERP.OneAPI.csproj", "{11807EC9-3AE9-438C-A30F-59D3BBD2E104}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Optimum.ClientApp", "Optimum.ClientApp\", "{1C050FDC-2CA1-4D4E-9B43-C8E19915A0B8}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_59701"
+		Debug.AspNetCompiler.PhysicalPath = "Optimum.ClientApp\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59701\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_59701"
+		Release.AspNetCompiler.PhysicalPath = "Optimum.ClientApp\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59701\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59701"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D67940D3-CA0B-4944-8C23-5496F3AA8EC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D67940D3-CA0B-4944-8C23-5496F3AA8EC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D67940D3-CA0B-4944-8C23-5496F3AA8EC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D67940D3-CA0B-4944-8C23-5496F3AA8EC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{103EBC26-945D-4D4A-853F-B81C76C18DFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{103EBC26-945D-4D4A-853F-B81C76C18DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{103EBC26-945D-4D4A-853F-B81C76C18DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{103EBC26-945D-4D4A-853F-B81C76C18DFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{491F9D23-1B79-4A0C-9157-C75D4F5EF8D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{491F9D23-1B79-4A0C-9157-C75D4F5EF8D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{491F9D23-1B79-4A0C-9157-C75D4F5EF8D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{491F9D23-1B79-4A0C-9157-C75D4F5EF8D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A798228E-786D-4775-A09C-D5A79276E3C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A798228E-786D-4775-A09C-D5A79276E3C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A798228E-786D-4775-A09C-D5A79276E3C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A798228E-786D-4775-A09C-D5A79276E3C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11807EC9-3AE9-438C-A30F-59D3BBD2E104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11807EC9-3AE9-438C-A30F-59D3BBD2E104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11807EC9-3AE9-438C-A30F-59D3BBD2E104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11807EC9-3AE9-438C-A30F-59D3BBD2E104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C050FDC-2CA1-4D4E-9B43-C8E19915A0B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C050FDC-2CA1-4D4E-9B43-C8E19915A0B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C050FDC-2CA1-4D4E-9B43-C8E19915A0B8}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C050FDC-2CA1-4D4E-9B43-C8E19915A0B8}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7730B9B1-32E4-4121-907C-211019669536}
+	EndGlobalSection
+EndGlobal
